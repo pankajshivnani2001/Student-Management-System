@@ -1,0 +1,153 @@
+/* entire body styling  */
+body{
+	font-family: Helvetica;
+	margin: 0;
+	background-color: #8b9d9d;
+}
+
+
+/*Navigation Bar Styling*/
+nav{
+    margin: 0px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    background-color: #c492ff;
+}
+
+nav a{
+	text-decoration: none;
+	margin: 5px;
+}
+
+nav a:hover{
+	color: black;
+}
+
+/* Form Styles */
+
+form{
+	text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    padding: 20px;
+}
+
+form label {
+	display: block;
+	margin: 5px;
+}
+
+input[type="text"], input[type="number"]{
+	background: none;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 50%;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 16px;
+}
+
+select{
+	background: none;
+	border: none;
+	font-size: 16px;
+	border-bottom: 2px solid black;
+	width: 50%;
+	margin-bottom: 25px;
+	text-align: center;
+	outline: none;
+}
+
+input:focus{
+	outline: none;
+}
+
+form span{
+	font-weight: normal;
+	margin: 5px;
+}
+
+form input[type="submit"]{
+	margin: 25px;
+    background: none;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 24px;
+    width: 20%;
+}
+
+form input[type="submit"]:hover{
+	cursor: pointer;
+	background-color: #a5ffa5;
+}
+
+.formContainer{
+	width: 50%;
+    margin: 0 auto;
+    background-color: #f7c3cc;
+    border-radius: 42px;
+}
+
+/* Output Display Table Styling */
+
+table{
+	margin:125px auto;
+    width: 60%;
+    border-collapse: collapse;
+    background-color: #e4b7b7;
+}
+
+table tr{
+	border: none;
+}
+
+table th, table td{
+	border: 1px solid #ddd;
+  	padding: 8px;
+}
+
+
+/* Update and Delete Button Styling */
+.buttonCell{
+	text-align: center;
+}
+
+.buttonCell button{
+	border: none;
+    background-color: #b0d5ff;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 8px;
+    width: 82%;
+    font-weight: bold;
+}
+
+.buttonCell button:hover{
+	cursor: pointer;
+}
+
+.buttonCellDelete button{
+	background-color: #ff5353;
+}
+
+/* Table Row Hover  */
+tr:hover{
+	background-color: darkgray;
+}
+
+
+/* Success Message on Insertion */
+#successMsg{
+    text-align: center;
+    color: #a5ffa5;
+    font-weight: bold;
+    font-size: 20px;
+}
